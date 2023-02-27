@@ -1,0 +1,92 @@
+/* Overall calculator styles */
+#calculator {
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center; /* center the calculator */
+    width: 240px;
+  }
+  
+  /* Display styles */
+  #display {
+    background-color: #222;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 5px;
+  }
+  
+  #input {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    text-align: right;
+    width: 100%;
+  }
+  #numbers, #operations, #controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    background-color: #777;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: 50px;
+    margin: 5px;
+    width: 50px;
+  }
+  
+  button:hover {
+    background-color: #999;
+  }
+  
+  /* Control button styles */
+  #controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  #ans {
+    background-color: #27ae60;
+  }
+  
+  #clr {
+    background-color: #c0392b;
+  }
+  
+  #ans:hover,
+  #clr:hover {
+    background-color: #333;
+  }
+  
+
+  #plus,
+  #minus,
+  #multiply,
+  #divide {
+    background-color: #3498db;
+  }
+  
+
+  /* Center the calculator on the page */
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
